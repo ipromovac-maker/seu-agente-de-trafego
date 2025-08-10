@@ -1,15 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "telegram.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "telegram.js"
-    }
-  ]
+  "functions": {
+    "api/telegram.js": { "runtime": "nodejs18.x" }
+  }
 }
