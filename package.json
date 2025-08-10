@@ -1,0 +1,9 @@
+{
+  "name": "seu-agente-de-trafego",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@upstash/redis": "^1.28.4",
+    "telegraf": "^4.16.3"
+  }
+}
